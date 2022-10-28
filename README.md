@@ -2,10 +2,10 @@
 
 In the project directory, you can run:
 
-### install yarn
-`npm install -g yarn`
-`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
-`yarn install`
+## install yarn
+###`npm install -g yarn`
+###`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
+###`yarn install`
 
 ### `yarn start`
 
