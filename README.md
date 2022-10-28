@@ -1,10 +1,11 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+#How to run the project in your local
 
 In the project directory, you can run:
+
+### install yarn
+`npm install -g yarn`
+`Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted`
+`yarn install`
 
 ### `yarn start`
 
