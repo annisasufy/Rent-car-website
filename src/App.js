@@ -4,6 +4,7 @@ import Navbar from './component/Navbar';
 import Daftarmobil from './component/Daftarmobil';
 import Sk from './component/Sk';
 import Testimoni from './component/Testimoni';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Daftarmobil/>
       <Sk/>
       <Testimoni/>
+      <Footer/>
     </div>
   );
 }
