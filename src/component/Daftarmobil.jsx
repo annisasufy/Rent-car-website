@@ -62,24 +62,24 @@ const Daftarmobil = () => {
 
 
     return (
-        <div className='max-w-[70%] mx-auto' id='Daftarmobil'>
+        <div className='max-w-[1920px] mx-auto' id='Daftarmobil'>
             <div className="">
-                <div className="text-center py-16  space-y-2">
+                <div className="text-center py-5 lg:py-16  space-y-1 lg:space-y-2">
                     <h1 className="font-bold text-2xl lg:text-5xl text-abu">DAFTAR MOBIL</h1>
                     <p className="text-[10px] lg:text-[16px]">Pilih mobil yang sesuai dengan kebutuhan anda</p>
                 </div>
                 <div className=" text-abu">
                     <Slider {...settings}>
                         {DataMobil.map((item) => (
-                            <div className="flex flex-col">
-                                <div className="my-9 px-7 pt-7 pb-10 bg-white shadow-[0px_0px_30px_rgba(0,0,0,0.1)] rounded-3xl">
+                            <div className="flex flex-col relative ">
+                                <div className="my-6 lg:my-9 px-7 pt-7 pb-10 bg-white shadow-[0px_0px_30px_rgba(0,0,0,0.1)] rounded-3xl">
                                     <div className="flex font-bold text-xl justify-start">
                                         <h1>{item.title}</h1>
                                     </div>
                                     <div className="flex mt-3 mb-2 justify-center">
                                         <img src={gambar} alt={item.title}/>
                                     </div>
-                                    <div className=" flex justify-center items-center gap-7 text-[10px] text-[#A9A9A9] my-2">
+                                    <div className=" flex justify-center items-center gap-7 text-[10px] text-[#A9A9A9] my-4">
                                         <div className="flex flex-col items-center space-y-2">
                                             <img src={gambar_sit} alt={item.sit}/>
                                             <p>{item.sit} orang</p>
@@ -99,11 +99,11 @@ const Daftarmobil = () => {
                                     </div>
                                     <div className="flex justify-between">
                                         <p className="text-xs"><a className="text-2xl font-bold">Rp{KonversiHarga(item.harga)}</a>/Per Hari</p>
-                                        <button className="bg-orange py-1 px-2 rounded-full text-lg font-bold">Rent Now!</button>
+                                        <button className="bg-orange py-1 px-4 rounded-full text-lg font-bold">Rent Now!</button>
                                     </div>
                                 </div>
-                                <div  className="absolute bottom-4 bg-abu text-sm text-white font-bold py-3 px-4 rounded-full">
-                                    <p>Klik Untuk Lebih Detail</p>
+                                <div className="flex">
+                                        <a className="absolute inset-x-0 bottom-1 lg:bottom-4"><div className="flex justify-center"><button className="bg-abu text-sm text-white font-bold py-3 px-4 rounded-full">Klik Untuk Lebih Detail</button></div></a>
                                 </div>
                             </div>
                         ))}
