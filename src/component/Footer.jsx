@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className='flex text-white gap-2'>
                 {<AiFillPhone size={20}/>}
-                <p>+62 88335429549</p>
+                <p>+62 82145951296</p>
             </div>
             <div className='w-full absolute text-center bg-orange bottom-0 font-poppins font-bold text-sm'>Copyright @ Sewa Haice Bali 2022. All Right Reserved</div>
         </div>

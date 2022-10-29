@@ -1,5 +1,5 @@
 import React from "react";
-import{dataSk} from "./dataSk"
+import{dataSk} from "../assets/Sk/dataSk"
 import mobil from "../assets/Sk/mobil.svg";
 import list from "../assets/Sk/list.svg";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { IoTerminalSharp, IoTimeSharp } from "react-icons/io5";
 import { FaStar } from 'react-icons/fa'
-import { dataTestimoni } from "./dataTestimoni";
+import { dataTestimoni } from "../assets/testimoni/dataTestimoni";
 import element from '../assets/testimoni/element.svg'
 
 const Testimoni = () => {
@@ -20,12 +20,12 @@ const Testimoni = () => {
     }
 
     return (
-        <div className='mt-20 h-40' id='Testimoni'>
-            <h1 className='font-poppins font-bold text-center text-3xl mb-11'>Testimoni <p className='font-normal text-sm'>Apa yang orang katakan kepada kami</p></h1>
-            <div className='flex flex-col max-w-[1240px] mx-auto'>
-                <div className='z-10 grid grid-cols-3 justify-items-center gap-10 mx-10'>
+        <div className='mt-20 md:my-20 h-[800px] md:h-40' id='Testimoni'>
+            <h1 className='font-bold text-center text-3xl lg:text-5xl mb-11 stroke-2'>Testimoni <p className='font-normal text-sm'>Apa yang orang katakan kepada kami</p></h1>
+            <div className='flex flex-col max-w-md md:max-w-[1240px] mx-auto'>
+                <div className='z-10 grid grid-row-3 md:grid-cols-3 justify-items-center gap-10 mx-10'>
                     {dataTestimoni.map((item)=>(
-                        <div className='p-10 rounded-2xl bg-white font-poppins text-[#777777]'>
+                        <div className='p-10 rounded-2xl bg-white font-poppins text-[#777777] drop-shadow-2xl'>
                             <div className='grid grid-cols-2 justify-items-start'>
                                 <div className="flex gap-2">
                                     <img className='' src={item.photo} alt=''/>

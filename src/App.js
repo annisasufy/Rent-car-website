@@ -5,6 +5,7 @@ import Daftarmobil from './component/Daftarmobil';
 import Sk from './component/Sk';
 import Testimoni from './component/Testimoni';
 import Footer from './component/Footer';
+import Whatsapp from './component/Whatsapp';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Sk/>
       <Testimoni/>
       <Footer/>
+      <Whatsapp />
     </div>
   );
 }

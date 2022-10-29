@@ -1,4 +1,4 @@
-import fotodummy from '../assets/testimoni/dummyprofile.svg'
+import fotodummy from './dummyprofile.svg'
 
 // Testimoni hanya didesain untuk display maksimal 3 testimoni saja
 // nilai rating harus bilangan bulat
