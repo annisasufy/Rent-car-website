@@ -85,6 +85,7 @@ const Daftarmobil2 = () => {
                     <p className="text-sm lg:text-[16px]">Pilih mobil yang sesuai dengan kebutuhan anda</p>
                 </div>
                 <div className="flex flex-col justify-center text-abu">
+                    {/* INI DISINI BUAT BIKIN CARD2 NYA*/}
                     <Slider {...settings}>
                         {DataMobil.map((car) => {
                             return(
@@ -121,6 +122,7 @@ const Daftarmobil2 = () => {
                                 <div className="flex">
                                         <a className="absolute inset-x-0 bottom-1 lg:bottom-4">
                                             <div className="flex justify-center">
+                                                {/* HARUSNYA onClick nya ini nnti yg nentuin 'car' mana yg mau dikirim ke Modal */}
                                                 <button onClick={()=> changecontent(car)} 
                                                     className="bg-abu text-sm text-white font-bold py-3 px-4 rounded-full">Klik Untuk Lebih Detail</button>
                                             </div>
@@ -134,6 +136,8 @@ const Daftarmobil2 = () => {
                 </div>
                 <div>
                                 {/* <div className="rounded-full bg-orange"><button onClick={changecontent}>X</button></div> */}
+                                
+                                {/* 'car' kiriman dari card tadi harusnya masuk ke sini lwt popupcontent */}
                                 <ul className="fixed bg-white pt-10">
                                     {popupcontent.map((item)=>(
                                         <div className="flex flex-col relative ">
