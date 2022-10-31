@@ -62,7 +62,7 @@ const Daftarmobil = () => {
 
 
     return (
-        <div className=' w-[340px] lg:w-[1840px] max-w-[1920px] mx-auto' id='Daftarmobil'>
+        <div className=' w-[340px] lg:w-[1100px] mx-auto' id='Daftarmobil'>
             <div className="">
                 <div className="text-center py-5 lg:py-16  space-y-1 lg:space-y-2">
                     <h1 className="font-bold text-2xl lg:text-5xl text-abu">DAFTAR MOBIL</h1>
@@ -99,7 +99,7 @@ const Daftarmobil = () => {
                                     </div>
                                     <div className="flex justify-between">
                                         <p className="text-[10px] lg:text-xs"><a className="text-xl lg:text-2xl font-bold">Rp{KonversiHarga(item.harga)}</a>/Per Hari</p>
-                                        <button className="bg-orange py-1 px-4 rounded-full text-sm lg:text-lg font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
+                                        <button className="bg-orange py-1 px-2 lg:px-4 rounded-full text-[12px] lg:text-[14px] font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
                                     </div>
                                 </div>
                                 <div className="flex">
