@@ -1,62 +1,178 @@
 export const DataMobil = [
     {
         id: 0,
-        title: 'TOYOTA HIACE LOREM IPSUM',
+        brand: 'TOYOTA',
+        title: 'HIACE PREMIO EXECUTIVE',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 11,
+        bbm: 'Diesel',
+        cc: 2755,
+        transmisi: 'Manual',
+        harga: ''
+    },
+    {
+        id: 1,
+        brand: 'TOYOTA',
+        title: 'HIACE PREMIO',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 15,
+        bbm: 'Diesel',
+        cc: 2755,
+        transmisi: 'Manual',
+        harga: 1500000
+    },
+    {
+        id: 2,
+        brand: 'TOYOTA',
+        title: 'HIACE COMMUTER',
         gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
         sit: 16,
         bbm: 'Diesel',
         cc: 2755,
         transmisi: 'Manual',
-        harga: 150000
-    },
-    {
-        id: 1,
-        title: 'TOYOTA HIACE LOREM IPSUM',
-        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
-        sit: 17,
-        bbm: 'Diesel',
-        cc: 2755,
-        transmisi: 'Manual',
-        harga: 150000
-    },
-    {
-        id: 2,
-        title: 'TOYOTA HIACE LOREM IPSUM',
-        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
-        sit: 18,
-        bbm: 'Diesel',
-        cc: 2755,
-        transmisi: 'Manual',
-        harga: 150000
+        harga: 1100000
     },
     {
         id: 3,
-        title: 'TOYOTA HIACE LOREM IPSUM',
+        brand: 'TOYOTA',
+        title: 'ALPHARD TRANSFORMER',
         gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
-        sit: 19,
-        bbm: 'Diesel',
-        cc: 2755,
-        transmisi: 'Manual',
-        harga: 150000
+        sit: 6,
+        bbm: 'Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 2500000
     },
     {
         id: 4,
-        title: 'TOYOTA HIACE LOREM IPSUM',
+        brand: 'TOYOTA',
+        title: 'INNOVA REBORN',
         gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
-        sit: 20,
-        bbm: 'Diesel',
-        cc: 2755,
-        transmisi: 'Manual',
-        harga: 150000
+        sit: 8,
+        bbm: 'Gasoline',
+        cc: 2000,
+        transmisi: 'Triptonic',
+        harga: 1100000
     },
     {
         id: 5,
-        title: 'TOYOTA HIACE LOREM IPSUM',
+        brand: 'TOYOTA',
+        title: 'AVANZA',
         gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
-        sit: 21,
-        bbm: 'Diesel',
-        cc: 2755,
+        sit: 8,
+        bbm: 'Gasoline',
+        cc: 1300,
         transmisi: 'Manual',
-        harga: 150000
+        harga: 600000
     },
+    {
+        id: 6,
+        brand: 'TOYOTA',
+        title: 'FORTUNER VRZ',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Diesel',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 600000
+    },
+    {
+        id: 7,
+        brand: 'MITSUBISHI',
+        title: 'PAJERO SPORT',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Diesel',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 600000
+    },
+    {
+        id: 8,
+        brand: 'FORD',
+        title: 'MUSTANG 5.0 V8 GT CONVERTIBLE',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Hi Performance Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 600000
+    },
+    {
+        id: 9,
+        brand: 'MERCEDES BENZ',
+        title: 'E 250 CONVERTIBLE',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Hi Performance Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 600000
+    },
+    {
+        id: 10,
+        brand: 'MERCEDES BENZ',
+        title: 'SLC 5 BITURBO 2019',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Hi Performance Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 600000
+    },
+    {
+        id: 11,
+        brand: 'MINI COOPER',
+        title: 'BLUE CARBIOLET',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 600000
+    },
+    {
+        id: 12,
+        brand: 'JEEP',
+        title: 'RUBICON',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Diesel',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 4000000
+    },
+    {
+        id: 13,
+        brand: 'PORSCHE',
+        title: '911 RED',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Hi Performance Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 7000000
+    },
+    {
+        id: 14,
+        brand: 'PORSCHE',
+        title: '911 WHITE',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 8,
+        bbm: 'Hi Performance Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 8750000
+    },
+    {
+        id: 6,
+        brand: 'FERRARI',
+        title: '488 PISTA',
+        gambar: 'https://drive.google.com/file/d/1wtSQj4NC2peE9oKrAMKiBCtrF1luJMRv/view?usp=sharing',
+        sit: 2,
+        bbm: 'Hi Performance Gasoline',
+        cc: 2400,
+        transmisi: 'Triptonic',
+        harga: 10000000
+    },    
 ]

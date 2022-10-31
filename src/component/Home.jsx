@@ -1,5 +1,5 @@
 import React from "react";
-import mobil from "../assets/home/mobilbg.svg";
+import mobil from "../assets/home/hiace.svg";
 import arrow from "../assets/home/arrow.svg";
 import { Link } from "react-scroll";
 
