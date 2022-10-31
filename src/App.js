@@ -2,10 +2,11 @@ import React from 'react'
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 import Nav from './component/Nav';
-import Daftarmobil from './component/Daftarmobil';
+import Daftarmobil2 from './component/Daftarmobil2';
 import Sk from './component/Sk';
 import Testimoni from './component/Testimoni';
 import Footer from './component/Footer';
+import Tes from './component/Tes';
 import Whatsapp from './component/Whatsapp';
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
         </div>
       </div>
       <Home />
-      <Daftarmobil/>
+      <Daftarmobil2/>
       <Sk/>
+      {/* <Tes/> */}
       <Testimoni/>
       <Footer/>
       <Whatsapp />
