@@ -12,7 +12,11 @@ function App() {
   return (
     <div>
       {/* <Nav /> */}
-      <Navbar />
+      <div className='flex'>
+        <div className='z-20'>
+          <Navbar />
+        </div>
+      </div>
       <Home />
       <Daftarmobil/>
       <Sk/>
