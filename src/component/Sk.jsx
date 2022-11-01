@@ -11,15 +11,17 @@ const Sk = () => {
             </h1>
             <div className="bg-[#F7F7F7]">
                 <div className='mx-8 py-5'>
-                    <div className='flex flex-col lg:flex-row gap-5 max-w-[1240px] mx-auto'>
-                        <img class="hidden sm:flex" src={mobil} alt=""/>
-                        <div className="grid">
-                            {dataSk.map((item)=>(
-                                <div className="flex gap-x-2 items-center">
-                                    <img src={list} alt=''/>
-                                    <p className="text-justify">{item.desc}</p>
-                                </div>
-                            ))}
+                    <div className='flex gap-5 max-w-[1240px] mx-auto'>
+                        <div className="flex flex-col lg:flex-row justify-between">    
+                            <img class="hidden sm:flex w-1/2" src={mobil} alt=""/>                            
+                                <div className="grid">
+                                    {dataSk.map((item)=>(
+                                        <div className="flex gap-x-2 items-center">
+                                            <img src={list} alt=''/>
+                                            <p className="text-justify">{item.desc}</p>
+                                        </div>
+                                    ))}
+                            </div>
                         </div>
                     </div>
                 </div>
