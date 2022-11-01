@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 import Nav from './component/Nav';
-import Daftarmobil2 from './component/Daftarmobil2';
+import Daftarmobil from './component/Daftarmobil';
 import Sk from './component/Sk';
 import Testimoni from './component/Testimoni';
 import Footer from './component/Footer';
@@ -19,7 +19,8 @@ function App() {
         </div>
       </div>
       <Home />
-      <Daftarmobil2/>
+      <Daftarmobil/>
+      {/* <Daftarmobil2/> */}
       <Sk/>
       {/* <Tes/> */}
       <Testimoni/>
