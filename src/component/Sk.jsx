@@ -10,7 +10,7 @@ const Sk = () => {
                 Syarat & Ketentuan <p className='font-normal text-sm'>Phasellus arcu in in tellus cursus ipsum dictum.</p>
             </h1>
             <div className="bg-[#F7F7F7]">
-                <div className='mx-8  pb-20'>
+                <div className='mx-8 py-5'>
                     <div className='flex flex-col lg:flex-row gap-5 max-w-[1240px] mx-auto'>
                         <img class="hidden sm:flex" src={mobil} alt=""/>
                         <div className="grid">

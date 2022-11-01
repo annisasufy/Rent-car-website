@@ -71,8 +71,8 @@ const Daftarmobil = () => {
                                 <div className="flex font-bold text-xl justify-start">
                                     <h1>{BrandTipe(item.brand,item.tipe)}</h1>
                                 </div>
-                                <div className=' bg-orange rounded-full'>
-                                    <button onClick={()=> {setpopuptogle(false)}} className="p-1"><AiOutlineClose size={20}/></button>
+                                <div className='rounded-full'>
+                                    <button onClick={()=> {setpopuptogle(false)}} className=""><AiOutlineClose size={20}/></button>
                                 </div>
                             </div>
                             <div className="flex flex-row gap-2">

@@ -25,7 +25,7 @@ const Testimoni = () => {
             <div className='flex flex-col max-w-md md:max-w-[1240px] mx-auto'>
                 <div className='z-10 grid grid-row-3 md:grid-cols-3 justify-items-center gap-10 mx-10'>
                     {dataTestimoni.map((item)=>(
-                        <div className='p-10 rounded-2xl bg-white font-poppins text-[#777777] drop-shadow-2xl'>
+                        <div className=' transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:shadow-orange/30  duration-300 p-10 rounded-2xl bg-white font-poppins text-[#777777] shadow-2xl'>
                             <div className='grid grid-cols-2 justify-items-start'>
                                 <div className="flex gap-2">
                                     <img className='' src={item.photo} alt=''/>

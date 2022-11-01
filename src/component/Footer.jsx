@@ -5,7 +5,7 @@ import logo from '../assets/navbar/logo.svg'
 
 const Footer = () => {
     return (
-        <div className='bg-abu rounded-t-[64px] xl:rounded-t-[200px] h-[700px] flex flex-col gap-3 justify-center items-center relative'>
+        <div className='bg-abu rounded-t-[64px] xl:rounded-t-[200px] h-[500px] flex flex-col gap-3 justify-center items-center relative'>
             <img className='mt-24' src={logo} alt=''/>
             <p className='text-white text-center max-w-md'>Jl. taman baruna bouganville II no.04 Sari, Jimbaran, Kec. Kuta Sel., jimbaran, Bali 80361</p>
             <div className='flex text-white gap-2'>
