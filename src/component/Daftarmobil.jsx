@@ -63,8 +63,8 @@ const Daftarmobil = () => {
         const wrapperRef = useRef(null);
         useOutsideAlerter(wrapperRef);
         return(
-            <div className="  z-[30] overflow-auto ">
-                <div  className="fixed block bg-black bg-opacity-50 inset-x-0 h-fit top-0 py-[270px] md:py-72 lg:py-80">
+            <div className="fixed inset-x-0 inset-y-0 h-full z-[30] overflow-auto ">
+                <div  className="flex bg-black bg-opacity-50 h-full items-center">
                     <div ref={wrapperRef} className=" relative w-[350px] sm:w-fit mx-auto " id="myModal" >
                         <div className="p-7 bg-white rounded-3xl">
                             <div className="flex justify-between"> 
