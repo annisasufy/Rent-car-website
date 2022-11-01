@@ -26,7 +26,10 @@ export const DataMobil = [
         cc: 2755,
         transmisi: 'Manual',
         harga: 2700000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp2.7Juta',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan',
     },
     {
         id: 1,
@@ -38,7 +41,10 @@ export const DataMobil = [
         cc: 2755,
         transmisi: 'Manual',
         harga: 1500000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp1.5Juta',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
     },
     {
         id: 2,
@@ -50,7 +56,10 @@ export const DataMobil = [
         cc: 2755,
         transmisi: 'Manual',
         harga: 1100000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp1.1Juta',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
     },
     {
         id: 3,
@@ -62,7 +71,10 @@ export const DataMobil = [
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 2500000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp2.5Juta',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
     },
     {
         id: 4,
@@ -74,7 +86,10 @@ export const DataMobil = [
         cc: 2000,
         transmisi: 'Triptonic',
         harga: 1100000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp600K',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
     },
     {
         id: 5,
@@ -86,7 +101,10 @@ export const DataMobil = [
         cc: 1300,
         transmisi: 'Manual',
         harga: 600000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp1.8Juta',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
     },
     {
         id: 6,
@@ -98,7 +116,10 @@ export const DataMobil = [
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 600000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp1.8Juta',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
     },
     {
         id: 7,
@@ -110,67 +131,95 @@ export const DataMobil = [
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 600000,
-        ketHarga: 'Hari'
+        ketHarga: 'Hari',
+        detHarga1: 'Rp1.8Juta',
+        ketHarga1: '/Hari',
+        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
     },
     {
         id: 8,
         brand: 'FORD',
         tipe: 'MUSTANG 5.0 V8 GT CONVERTIBLE',
         gambar: Mustang5,
-        sit: 8,
+        sit: 2,
         bbm: 'HP Gasoline',
-        cc: 2400,
+        cc:5000,
         transmisi: 'Triptonic',
         harga: 5000000,
-        ketHarga: '3 jam*'
+        ketHarga: '3 jam*',
+        detHarga1: 'Rp5Juta',
+        ketHarga1: '/3 jam',
+        detHarga2: 'Rp7.5Juta',
+        ketHarga2: '/6 jam',
+        detHarga3: 'Rp9Juta',
+        ketHarga3: '/12 jam',
+        detHarga4: 'Rp10Juta',
+        ketHarga4: '/24 jam',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
     },
     {
         id: 9,
         brand: 'MERCEDES BENZ',
         tipe: 'E 250 CONVERTIBLE',
         gambar: MercedesBenzE250,
-        sit: 8,
+        sit: 2,
         bbm: 'HP Gasoline',
-        cc: 2400,
+        cc: 2000,
         transmisi: 'Triptonic',
         harga: 5000000,
-        ketHarga: '12 jam'
+        ketHarga: '12 jam*',
+        detHarga1: 'Rp5Juta',
+        ketHarga1: '/12 jam',
+        detHarga2: 'Rp65Juta',
+        ketHarga2: '/24 jam',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
     },
     {
         id: 10,
         brand: 'MERCEDES BENZ',
         tipe: 'SLC 5 BITURBO 2019',
         gambar: MercedesBenzSLC5,
-        sit: 8,
+        sit: 2,
         bbm: 'HP Gasoline',
-        cc: 2400,
+        cc: 3000,
         transmisi: 'Triptonic',
         harga: 600000,
-        ketHarga: '24 jam'
+        ketHarga: '24 jam',
+        detHarga1: 'Rp8.5Juta',
+        ketHarga1: '/24 jam',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
     },
     {
         id: 11,
         brand: 'MINI COOPER',
         tipe: 'BLUE CARBIOLET',
         gambar: MiniBlue,
-        sit: 8,
+        sit: 4,
         bbm: 'Gasoline',
-        cc: 2400,
+        cc: 3000,
         transmisi: 'Triptonic',
         harga: 600000,
-        ketHarga: '12 jam'
+        ketHarga: '12 jam',
+        detHarga1: 'Rp3.5Juta',
+        ketHarga1: '/12 jam',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
     },
     {
         id: 12,
         brand: 'JEEP',
         tipe: 'RUBICON',
         gambar: JeepRubicon,
-        sit: 8,
+        sit: 6,
         bbm: 'Diesel',
-        cc: 2400,
+        cc: 4000,
         transmisi: 'Triptonic',
         harga: 4000000,
-        ketHarga: 'day*'
+        ketHarga: 'Hari*',
+        detHarga1: 'Rp4Juta',
+        ketHarga1: '/Hari (self drive)',
+        detHarga2: 'Rp5Juta',
+        ketHarga2: '/Hari (all in)*',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. (*termasuk driver dan BBM)',
     },
     {
         id: 13,
@@ -182,7 +231,10 @@ export const DataMobil = [
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 7000000,
-        ketHarga: '12 jam'
+        ketHarga: '12 jam',
+        detHarga1: 'Rp7Juta',
+        ketHarga1: '/12 jam',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
     },
     {
         id: 14,
@@ -194,10 +246,13 @@ export const DataMobil = [
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 8750000,
-        ketHarga: '12 jam'
+        ketHarga: '12 jam',
+        detHarga1: 'Rp8.75Juta',
+        ketHarga1: '/12 jam',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
     },
     {
-        id: 6,
+        id: 15,
         brand: 'FERRARI',
         tipe: '488 PISTA',
         gambar: Ferrari488Pista,
@@ -206,6 +261,12 @@ export const DataMobil = [
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 10000000,
-        ketHarga: 'jam*'},
+        ketHarga: 'jam*',
+        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.',
+        detHarga1: 'Rp10Juta',
+        ketHarga1: '/jam',
+        detHarga2: 'Rp40Juta',
+        ketHarga2: '/12 jam'
+    },
 
 ]

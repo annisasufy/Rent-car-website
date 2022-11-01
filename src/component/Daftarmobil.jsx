@@ -66,7 +66,7 @@ const Daftarmobil = () => {
             <div className="fixed inset-x-0 inset-y-0 h-full z-[30] overflow-auto ">
                 <div  className="flex bg-black bg-opacity-50 h-full items-center">
                     <div ref={wrapperRef} className=" relative w-[350px] sm:w-fit mx-auto " id="myModal" >
-                        <div className="p-7 bg-white rounded-3xl">
+                        <div className="p-7 w-[350px] lg:w-[430px] bg-white rounded-3xl">
                             <div className="flex justify-between"> 
                                 <div className="flex font-bold text-xl justify-start">
                                     <h1>{BrandTipe(item.brand,item.tipe)}</h1>
@@ -75,11 +75,11 @@ const Daftarmobil = () => {
                                     <button onClick={()=> {setpopuptogle(false)}} className=""><AiOutlineClose size={20}/></button>
                                 </div>
                             </div>
-                            <div className="flex flex-row gap-2">
-                                <div className="flex mt-3 mb-2 justify-center ">
+                            <div className="flex flex-row gap-5">
+                                <div className="flex mt-3 mb-2 justify-center w-3/5">
                                     <img className="object-contain" src={item.gambar} alt={item.title}/>
                                 </div>
-                                <div className="w-1/3 flex flex-col justify-around items-center gap-7 text-[10px] text-[#A9A9A9] my-7 sm:my-16 ">
+                                <div className="w-1/3 flex flex-col justify-around items-center gap-7 text-[7px] text-[#A9A9A9] my-10 ">
                                     <div className="flex gap-7">
                                         <div className="flex flex-col items-center space-y-2">
                                             <img src={gambar_sit} alt={item.sit}/>
@@ -102,11 +102,15 @@ const Daftarmobil = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex justify-between">
-                                <p className="text-[10px] lg:text-xs"><a className="text-xl lg:text-2xl font-bold">Rp{KonversiHarga(item.harga)}</a>/Per Hari</p>
+                            <div className="grid grid-cols-2">
+                                <h1 className="text-sm lg:text-lg font-bold">{item.detHarga1}<span className="text-[8px] lg:text-xs font-normal">{item.ketHarga1}</span></h1>
+                                <h1 className="text-sm lg:text-lg font-bold">{item.detHarga2}<span className="text-[8px] lg:text-xs font-normal">{item.ketHarga2}</span></h1>
+                                <h1 className="text-sm lg:text-lg font-bold">{item.detHarga3}<span className="text-[8px] lg:text-xs font-normal">{item.ketHarga3}</span></h1>
+                                <h1 className="text-sm lg:text-lg font-bold">{item.detHarga4}<span className="text-[8px] lg:text-xs font-normal">{item.ketHarga4}</span></h1>
                             </div>
+                            <p className="font-poppins my-2 text-sm">{item.deskripsi}</p>
                             <a href="http://wa.me/6282145951296">
-                            <button className="bg-orange w-full mt-5 py-1 rounded-full font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
+                            <button className="bg-orange w-full py-1 rounded-full font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
                             </a>
                         </div>
                     </div>

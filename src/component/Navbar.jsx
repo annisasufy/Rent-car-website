@@ -32,8 +32,7 @@ const Navbar = () => {
                             </div>
                         </button>
                     </div> */}
-
-                    <ul className={`md:flex md:items-center  absolute md:static bg-abu rounded-b-[40px] md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-5 transition-all duration-500 ease-in ${open ? 'top-12 ':'top-[-490px]'}`}>
+                    <ul className={`md:flex md:items-center  absolute bg-abu rounded-b-[20px] md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-5 transition-all duration-500 ease-in ${open ? 'top-12 ':'top-[-490px]'}`}>
                         {Links.map((link)=>(
                             <li className="p-2">
                                 <button><Link className="hover:text-orange duration-500"  to={link.link} spy={true} smooth={true} offset={5}>{link.name}</Link></button>
