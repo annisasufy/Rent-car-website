@@ -159,9 +159,9 @@ const Daftarmobil = () => {
 
 
     return (
-        <div className='pt-10 md:pt-20  w-[340px] sm:w-[500px] md:w-[600px] lg:w-[1100px] mx-auto' id='Daftarmobil'>
+        <div className='pt-7  w-[340px] sm:w-[500px] md:w-[600px] lg:w-[1100px] mx-auto' id='Daftarmobil'>
             <div className="">
-                <div className="text-center py-5 lg:py-16  space-y-1 lg:space-y-2">
+                <div className="text-center py-5  space-y-1 lg:space-y-2">
                     <h1 className="font-bold text-2xl lg:text-5xl text-abu">DAFTAR MOBIL</h1>
                     <p className="text-sm lg:text-[16px]">Pilih mobil yang sesuai dengan kebutuhan anda</p>
                 </div>
@@ -196,7 +196,9 @@ const Daftarmobil = () => {
                                     </div>
                                     <div className="flex items-center justify-between">
                                         <p className="text-[10px] lg:text-xs"><a className="text-2xl lg:text-2xl font-bold">Rp{KonversiHarga(item.harga)}</a>/ {item.ketHarga}</p>
-                                        <button className="bg-orange py-1 px-2 lg:px-4 rounded-full text-[14px] lg:text-[15px] font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
+                                        <a href="http://wa.me/6282145951296">
+                                            <button className="bg-orange py-1 px-2 lg:px-4 rounded-full text-[14px] lg:text-[15px] font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="flex">
