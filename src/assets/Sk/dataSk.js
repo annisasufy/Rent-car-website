@@ -1,15 +1,15 @@
 const dataSk = [
   {
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum tortor tristique nec in ac nec condimentum libero. Pulvinar et pellentesque ipsum commodo."
+    desc: "Setiap pemesanan sudah termasuk driver rangkap guide, BBM, air mineral, tissue basah, tissue kering, dan disinfektan."
   },
   {
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium velit risus faucibus nisl erat duis faucibus. "
+    desc: "Untuk pemesanan mobil sport dengan Self Drive, tidak termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan."
   },
   {
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus id euismod."
+    desc: "Pemesanan mobil memerlukan syarat atau jaminan apapun."
   },
   {
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum tortor tristique nec in ac nec condimentum libero."
+    desc: "Khusus pemesanan mobil sport dengan Self Drive, syarat dan ketentuan hubungi kami melalui pop up Whatsapp."
   },
 ];
 

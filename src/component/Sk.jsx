@@ -6,8 +6,8 @@ import list from "../assets/Sk/list.svg";
 const Sk = () => {
     return (
         <div className='pt-10 md:pt-14' id='Sk'>
-            <h1 className='pt-5 pb-5 text-center font-bold text-2xl lg:text-5xl text-abu'>
-                Syarat & Ketentuan <p className='font-normal text-sm'>Phasellus arcu in in tellus cursus ipsum dictum.</p>
+            <h1 className='pt-5 pb-8 text-center font-bold text-2xl lg:text-5xl text-abu'>
+                Syarat & Ketentuan
             </h1>
             <div className="bg-[#F7F7F7]">
                 <div className='mx-8 py-5'>

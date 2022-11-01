@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from "react-scroll";
-import logo from "../assets/navbar/logo.svg";
+import logo from "../assets/navbar/logo_atas-removebg-preview.png";
 
 const Navbar = () => {
     let [open,setOpen]=useState(false);
@@ -16,11 +16,11 @@ const Navbar = () => {
     return (
         <div className="shadow-md w-full fixed top-0 left-0">
                 <div className="md:flex items-center justify-between bg-abu md:px-10 px-7 text-white">
-                    <div >
+                    <div className='w-1/5 md:w-32'>
                         <img class="py-1.5 max-w-96" src={logo} alt=""></img> 
                     </div>
 
-                    <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
+                    <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-2 cursor-pointer md:hidden'>
                     {!open ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20}/>}
                     </div>
 

@@ -1,5 +1,5 @@
 import HiacePremioExecutive from "./DataGambarMobil/hiace_premio_Executive.png";
-import HiacePremio from "./DataGambarMobil/hiace_premio.png";
+import HiacePremio from "../home/hiace.png";
 import HiaceCommuter from "./DataGambarMobil/hiace_commuter.png";
 import AlphardTrans from "./DataGambarMobil/Toyota_Alphard_Transformer.png";
 import InovaReborn from "./DataGambarMobil/Inova_Reborn.png";
@@ -21,7 +21,7 @@ export const DataMobil = [
         brand: 'TOYOTA',
         tipe: 'HIACE PREMIO EXECUTIVE',
         gambar: HiacePremioExecutive,
-        sit: 11,
+        sit: 10,
         bbm: 'Diesel',
         cc: 2755,
         transmisi: 'Manual',
@@ -29,7 +29,7 @@ export const DataMobil = [
         ketHarga: 'Hari',
         detHarga1: 'Rp2.7Juta',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan',
+        deskripsi: 'Minibus, kapasitas banyak, dilengkapi dengan kemewahan dan fitur entertainment. Didesain untuk menciptakan ruang perjalanan yang nyaman dan nuansa terbuka',
     },
     {
         id: 1,
@@ -44,7 +44,7 @@ export const DataMobil = [
         ketHarga: 'Hari',
         detHarga1: 'Rp1.5Juta',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
+        deskripsi: 'Minibus, kapasitas banyak, nyaman, dilengkapi fitur keselamatan dan keamanan memadai'
     },
     {
         id: 2,
@@ -59,7 +59,7 @@ export const DataMobil = [
         ketHarga: 'Hari',
         detHarga1: 'Rp1.1Juta',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
+        deskripsi: 'Minibus, kapasitas banyak, nyaman, dilengkapi fitur keselamatan dan keamanan memadai'
     },
     {
         id: 3,
@@ -74,7 +74,7 @@ export const DataMobil = [
         ketHarga: 'Hari',
         detHarga1: 'Rp2.5Juta',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
+        deskripsi: 'Mobil premium dengan gaya formal namun stylish. Dengan kemewahan, sistem entertainment serasa di rumah dan fitur keamanan luar biasa berbasis sensor presisi.'
     },
     {
         id: 4,
@@ -89,7 +89,7 @@ export const DataMobil = [
         ketHarga: 'Hari',
         detHarga1: 'Rp600K',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
+        deskripsi: 'Mobil keluarga dengan kabin nyaman, luas, dan mewah. Fitur entertainment dan keselamatan terbaru'
     },
     {
         id: 5,
@@ -104,7 +104,7 @@ export const DataMobil = [
         ketHarga: 'Hari',
         detHarga1: 'Rp1.8Juta',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
+        deskripsi: 'Mobil keluarga dengan ukuran yang kompak membuatnya lincah di semua kondisi jalan raya'
     },
     {
         id: 6,
@@ -115,11 +115,11 @@ export const DataMobil = [
         bbm: 'Diesel',
         cc: 2400,
         transmisi: 'Triptonic',
-        harga: 600000,
+        harga: 1800000,
         ketHarga: 'Hari',
         detHarga1: 'Rp1.8Juta',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
+        deskripsi: 'Mobil SUV yang tangguh di segala medan, meningkatkan kenyamanan pengendara dan pengguna di setiap perjalanan'
     },
     {
         id: 7,
@@ -130,11 +130,11 @@ export const DataMobil = [
         bbm: 'Diesel',
         cc: 2400,
         transmisi: 'Triptonic',
-        harga: 600000,
+        harga: 1800000,
         ketHarga: 'Hari',
         detHarga1: 'Rp1.8Juta',
         ketHarga1: '/Hari',
-        deskripsi: 'Setiap pemesanan sudah termasuk driver, BBM, air mineral, tissue basah, tissue kering, dan disinfektan'
+        deskripsi: 'Mobil SUV yang kokoh di luar, cantik di dalam. Fitur keamanan dan kenyamanan tingkat tinggi'
     },
     {
         id: 8,
@@ -142,7 +142,7 @@ export const DataMobil = [
         tipe: 'MUSTANG 5.0 V8 GT CONVERTIBLE',
         gambar: Mustang5,
         sit: 2,
-        bbm: 'HP Gasoline',
+        bbm: 'RON 97+ Gasoline',
         cc:5000,
         transmisi: 'Triptonic',
         harga: 5000000,
@@ -155,24 +155,24 @@ export const DataMobil = [
         ketHarga3: '/12 jam',
         detHarga4: 'Rp10Juta',
         ketHarga4: '/24 jam',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
+        deskripsi: 'one of the most famous car of all-time, tampilan perkasa dengan performa luar biasa dengan kap convertible'
     },
     {
-        id: 9,
+        id:9,
         brand: 'MERCEDES BENZ',
         tipe: 'E 250 CONVERTIBLE',
         gambar: MercedesBenzE250,
         sit: 2,
-        bbm: 'HP Gasoline',
+        bbm: 'RON 97+ Gasoline',
         cc: 2000,
         transmisi: 'Triptonic',
         harga: 5000000,
         ketHarga: '12 jam*',
         detHarga1: 'Rp5Juta',
         ketHarga1: '/12 jam',
-        detHarga2: 'Rp65Juta',
+        detHarga2: 'Rp6.5Juta',
         ketHarga2: '/24 jam',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
+        deskripsi: 'Mobil mewah berjiwa muda dengan kap convertible.Dilengkapi dengan fasilitas AirScraf pada head seat untuk mengalirkan udara hangat'
     },
     {
         id: 10,
@@ -180,14 +180,14 @@ export const DataMobil = [
         tipe: 'SLC 5 BITURBO 2019',
         gambar: MercedesBenzSLC5,
         sit: 2,
-        bbm: 'HP Gasoline',
+        bbm: 'RON 97+ Gasoline',
         cc: 3000,
         transmisi: 'Triptonic',
-        harga: 600000,
+        harga: 8500000,
         ketHarga: '24 jam',
         detHarga1: 'Rp8.5Juta',
         ketHarga1: '/24 jam',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
+        deskripsi: 'Mobil mewah dengan tampilan dinamis dan atraktif tanpa menanggalkan kegarangan tenaganya'
     },
     {
         id: 11,
@@ -198,11 +198,11 @@ export const DataMobil = [
         bbm: 'Gasoline',
         cc: 3000,
         transmisi: 'Triptonic',
-        harga: 600000,
+        harga: 3500000,
         ketHarga: '12 jam',
         detHarga1: 'Rp3.5Juta',
         ketHarga1: '/12 jam',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
+        deskripsi: 'mobil premium dengan segala fitur berteknologi terbaru yang pastinya memanjakan pengemudi kendaraan di dalamnya.'
     },
     {
         id: 12,
@@ -219,7 +219,7 @@ export const DataMobil = [
         ketHarga1: '/Hari (self drive)',
         detHarga2: 'Rp5Juta',
         ketHarga2: '/Hari (all in)*',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. (*termasuk driver dan BBM)',
+        deskripsi: 'SUV off-roader Jeep ini diperuntukkan bagi mereka yang menginginkan mobil dengan tampilan benar-benar garang dan jagoan di jalur ekstrim'
     },
     {
         id: 13,
@@ -227,14 +227,14 @@ export const DataMobil = [
         tipe: '911 RED',
         gambar: Porsche911Red,
         sit: 8,
-        bbm: 'HP Gasoline',
+        bbm: 'RON 97+ Gasoline',
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 7000000,
         ketHarga: '12 jam',
         detHarga1: 'Rp7Juta',
         ketHarga1: '/12 jam',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
+        deskripsi: 'Mobil premium dengan visual tampan dan dapur pacu garang tanpa menanggalkan kenyamanan'
     },
     {
         id: 14,
@@ -242,14 +242,14 @@ export const DataMobil = [
         tipe: '911 WHITE',
         gambar: Porsche911White,
         sit: 8,
-        bbm: 'HP Gasoline',
+        bbm: 'RON 97+ Gasoline',
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 8750000,
         ketHarga: '12 jam',
         detHarga1: 'Rp8.75Juta',
         ketHarga1: '/12 jam',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.'
+        deskripsi: 'Mobil premium dengan visual tampan dan dapur pacu garang tanpa menanggalkan kenyamanan'
     },
     {
         id: 15,
@@ -257,13 +257,12 @@ export const DataMobil = [
         tipe: '488 PISTA',
         gambar: Ferrari488Pista,
         sit: 2,
-        bbm: 'HP Gasoline',
+        bbm: 'RON 97+ Gasoline',
         cc: 2400,
         transmisi: 'Triptonic',
         harga: 10000000,
         ketHarga: 'jam*',
-        deskripsi: 'Setiap pemesanan sudah termasuk air mineral, tissue basah, tissue kering, dan disinfektan. Driver dan BBM belum termasuk.',
-        detHarga1: 'Rp10Juta',
+        deskripsi: 'Mobil sport dengan aerodinamika canggih dan inovasi desain yang cerdas',
         ketHarga1: '/jam',
         detHarga2: 'Rp40Juta',
         ketHarga2: '/12 jam'

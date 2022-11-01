@@ -24,7 +24,9 @@ function App() {
       <Sk/>
       <Testimoni/>
       <Footer/>
-      <Whatsapp />
+      <div className='flex'>
+        <div className='z-30'><Whatsapp /></div>
+      </div>
     </div>
   );
 }
