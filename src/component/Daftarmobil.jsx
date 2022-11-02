@@ -121,12 +121,13 @@ const Daftarmobil = () => {
     
     
     var settings = {
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 1,
+        arrows: false,
 
         responsive: [
           {
@@ -135,7 +136,7 @@ const Daftarmobil = () => {
               slidesToShow: 2,
               slidesToScroll: 2,
               infinite: false,
-              dots: true
+              dots: false
             }
           },
           {

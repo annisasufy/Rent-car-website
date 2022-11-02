@@ -20,7 +20,7 @@ const Navbar = () => {
                         <img class="py-1.5 max-w-96" src={logo} alt=""></img> 
                     </div>
 
-                    <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-2 cursor-pointer md:hidden'>
+                    <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-5 top-2 sm:top-4 cursor-pointer md:hidden'>
                     {!open ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20}/>}
                     </div>
 
