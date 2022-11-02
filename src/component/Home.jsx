@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <div className='flex flex-col bg-abu rounded-b-[40px] lg:rounded-b-[64px]' id='Home'>
             <div className="mt-10 flex flex-row justify-between">
-                <div className='max-w-[1240px] h-[50%] lg:mx-auto'>
+                <div className='max-w-[1240px] h-[50%] my-auto lg:mx-auto'>
                     <div className="flex px-6">
                         <div className='py-[50px] md:pt-20 lg:pt-40  text-white  grid grid-row-2 gap-3 lg:gap-5'>
-                            <h1 className=' max-w-3xl font-bold text-2xl lg:text-7xl'>Make <span className='text-orange'>Your Trip</span>{" "}<p>Enjoyable</p></h1>
+                            <h1 className=' max-w-3xl uppercase font-bold font-montserrat italic  text-2xl sm:text-4xl md:text-5xl lg:text-7xl'>Make <span className='text-orange'>Your Trip</span>{" "}<p>Enjoyable</p></h1>
                         
                         </div>
                     </div>
