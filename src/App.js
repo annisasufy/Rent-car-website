@@ -3,9 +3,9 @@ import Home from './component/Home';
 import Navbar from './component/Navbar';
 import Daftarmobil from './component/Daftarmobil';
 import Sk from './component/Sk';
-import Testimoni from './component/Testimoni';
 import Footer from './component/Footer';
 import Whatsapp from './component/Whatsapp';
+import Tes from './component/Tes';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         </div>
       </div>
       <Sk/>
-      <Testimoni/>
+      <Tes/>
       <Footer/>
       <div className='flex'>
         <div className='z-30'><Whatsapp /></div>

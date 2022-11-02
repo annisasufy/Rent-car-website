@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='max-w-[1100px] h-[50%] my-auto md:ml-7 lg:ml-20'>
                     <div className="pl-6 w-1/2">
                         <div className='py-[50px] md:pt-20 lg:pt-40  text-white  grid grid-row-2 gap-3 lg:gap-5'>
-                            <h1 className=' max-w-3xl uppercase font-bold font-montserrat italic  text-2xl sm:text-4xl md:text-5xl lg:text-7xl'>Make <span className='text-orange'>Your Trip</span>{" "}<p>Enjoyable</p></h1>
+                            <h1 className=' max-w-3xl uppercase font-extrabold font-montserrat italic  text-2xl sm:text-4xl md:text-5xl lg:text-7xl'>Make <span className='text-orange'>Your Trip</span>{" "}<p>Enjoyable</p></h1>
                         
                         </div>
                     </div>
