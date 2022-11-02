@@ -10,9 +10,9 @@ const Sk = () => {
                 Keterangan
             </h1>
             <div className="bg-[#F7F7F7]">
-                <div className='mx-8 pt-5'>
+                <div className='mx-8 pt-5 pb-5 lg:pb-0'>
                     <div className='flex gap-5 max-w-[1240px] mx-auto'>
-                        <div className="flex flex-col lg:flex-row justify-between">    
+                        <div className="flex flex-col lg:flex-row justify-between items-center">    
                             <img class="hidden lg:flex w-1/2 mx-auto" src={mobil} alt=""/>
                             <ul className="">
                                 {dataSk.map((item)=>(
