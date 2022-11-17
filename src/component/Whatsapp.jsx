@@ -5,7 +5,7 @@ import 'react-whatsapp-widget/dist/index.css';
 
 const Whatsapp = () => {
     return (
-        <WhatsAppWidget CompanyIcon={CompanyIcon} phoneNumber="6282145951296" />
+        <WhatsAppWidget CompanyIcon={CompanyIcon} phoneNumber="6281239036266" />
     );
 }
 

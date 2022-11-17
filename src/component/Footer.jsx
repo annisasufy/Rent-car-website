@@ -21,11 +21,15 @@ const Footer = () => {
                 </div>
                 <div className='flex mb-0.5 justify-center items-center text-white gap-0.5'>
                     {<AiFillPhone size={20}/>}
-                    <p>+62 821-4595-1296</p>
+                    <p>+62 812-3903-6266 (office)</p>
                 </div>
                 <div className='flex mb-0.5 justify-center items-center text-white gap-0.5'>
                     {<AiFillPhone size={20}/>}
-                    <p>+62 812-3903-6266</p>
+                    <p>+62 812-2998-8786 (Sonia)</p>
+                </div>
+                <div className='flex mb-0.5 justify-center items-center text-white gap-0.5'>
+                    {<AiFillPhone size={20}/>}
+                    <p>+62 811-8890-261 (Mahen)</p>
                 </div>
             </div>
             <div className='w-full absolute text-center bg-orange bottom-0 font-poppins font-bold text-sm'>Copyright @ Sewa Haice Bali 2022. All Right Reserved</div>
