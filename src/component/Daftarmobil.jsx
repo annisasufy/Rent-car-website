@@ -109,7 +109,7 @@ const Daftarmobil = () => {
                                 <h1 className="text-sm lg:text-lg font-bold">{item.detHarga4}<span className="text-[8px] lg:text-xs font-normal">{item.ketHarga4}</span></h1>
                             </div>
                             <p className="font-poppins my-2 text-sm">{item.deskripsi}</p>
-                            <a href="http://wa.me/6282145951296">
+                            <a href="http://wa.me/6281239036266">
                             <button className="bg-orange w-full py-1 rounded-full font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
                             </a>
                         </div>
