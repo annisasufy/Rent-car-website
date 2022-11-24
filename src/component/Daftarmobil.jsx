@@ -197,7 +197,7 @@ const Daftarmobil = () => {
                                     </div>
                                     <div className="flex items-center justify-between">
                                         <p className="text-[10px] lg:text-xs"><a className="text-2xl lg:text-2xl font-bold">Rp{KonversiHarga(item.harga)}</a>/ {item.ketHarga}</p>
-                                        <a href="http://wa.me/6282145951296">
+                                        <a href="http://wa.me/6281239036266">
                                             <button className="bg-orange py-1 px-2 lg:px-4 rounded-full text-[14px] lg:text-[15px] font-bold shadow-[0px_0px_30px] shadow-[#FDF9DD] hover:text-orange duration-100 border-2 hover:border-orange border-white hover:bg-white">Rent Now!</button>
                                         </a>
                                     </div>
